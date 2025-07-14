@@ -11,6 +11,7 @@ body {
   padding: 10px;
 }
 header {
+  position: relative;
   width: 100%;
   height: 100px;
   background: #fff;
@@ -44,6 +45,7 @@ header {
   padding: 10px 20px;
   border-bottom: 3px solid transparent;
   transition: 0.2s;
+  cursor: pointer;
 }
 .menu ul li a {
   text-decoration: none;
@@ -52,6 +54,57 @@ header {
   font-weight: 600;
 }
 .menu ul li:hover,
-.menu ul li.active{
-    border-bottom: 3px solid #fcb5de;
+.menu ul li.active {
+  border-bottom: 3px solid #fcb5de;
+}
+.menu-toggle {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #3a3a3a;
+  transition: 0.3s;
+}
+@media (max-width: 1200px) {
+  .menu-toggle {
+    display: flex;
+    transition: 0.3s;
+  }
+  .menu ul {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    align-items: start;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .menu ul.active {
+    display: flex;
+    opacity: 1;
+  }
+  .menu ul li {
+    display: block;
+    width: 100%;
+  }
+  .menu ul li:hover,
+  .menu ul li.active {
+    border-bottom: 3px solid transparent;
+    background: #333;
+  }
+  .menu ul li:hover a,
+  .menu ul li.active a {
+    color: white;
+  }
+  .menu ul li a {
+    font-size: 20px;
+  }
 }
