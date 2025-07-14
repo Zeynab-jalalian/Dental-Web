@@ -71,8 +71,7 @@ header {
 }
 
 .home {
-  background: #eee;
-
+  background: url("img/home.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -89,10 +88,12 @@ header {
   font-size: 30px;
   margin-bottom: 10px;
   font-weight: 900;
+  text-align: center;
 }
 .home h1 {
   font-size: 50px;
   margin-bottom: 10px;
+  text-align: center;
 }
 .home p {
   font-size: 22px;
@@ -106,7 +107,7 @@ header {
 .notice {
   width: 80%;
   margin: auto;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.555);
   padding: 20px 30px;
   border: 1px solid #fcb5de;
   box-shadow: 0 0 10px #fcb5de;
@@ -119,6 +120,39 @@ header {
 .notice span {
   font-size: 23px;
   font-weight: 600;
+}
+
+@media (max-width: 400px) {
+  .home h3 {
+    font-size: 20px;
+  }
+  .home h1 {
+    font-size: 30px;
+  }
+  .home p {
+    margin-bottom: 10px;
+    max-width: 300px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .home {
+    height: 90vh;
+  }
+  .home h3 {
+    font-size: 25px;
+  }
+  .home h1 {
+    font-size: 35px;
+  }
+  .home p {
+    margin-bottom: 10px;
+    max-width: 480px;
+    font-size: 20px;
+  }
+  .home span {
+    font-size: 21px;
+  }
 }
 @media (max-width: 1200px) {
   .menu-toggle {
