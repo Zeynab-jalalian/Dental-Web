@@ -123,6 +123,9 @@ header {
 }
 
 @media (max-width: 400px) {
+  .home {
+    height: 100vh;
+  }
   .home h3 {
     font-size: 20px;
   }
