@@ -140,7 +140,7 @@ header {
 }
 @media (max-width: 768px) {
   .home {
-    height: 90vh;
+    height: 100vh;
   }
   .home h3 {
     font-size: 25px;
