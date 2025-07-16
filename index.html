@@ -68,9 +68,9 @@
         کنیم.
       </h3>
       <h3>ویزیت و مشاوره رایگان از سایت</h3>
-      <div class="reservation-box">
-        <input type="text" placeholder="نام و نام خانوادگی" />
-        <input type="number" placeholder="شماره تماس" />
+      <form class="reservation-box">
+        <input type="text" placeholder="نام و نام خانوادگی" id="inputText" required />
+        <input type="number" placeholder="شماره موبایل" id="inputNumber" required />
 
         <select id="options" name="option">
           <option>مشاوره دندانپزشکی</option>
@@ -82,15 +82,12 @@
           <option>کودکان</option>
         </select>
 
-        <button>
+        <button class="formBtn">
           رزرو وقت
           <i class="fa-solid fa-calendar"></i>
         </button>
-         <div class="text">
-          <i class="fas fa-check"></i>
-          ممنون :) مشاورین ما به زودی با شما تماس می گیرند.</div>
-      </div>
-     
+        <div class="text"></div>
+        </form>
     </section>
 
     <script src="script.js"></script>
