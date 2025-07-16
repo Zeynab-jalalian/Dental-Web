@@ -144,7 +144,8 @@ header {
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
-.reservation-box input ,#options{
+.reservation-box input,
+#options {
   padding: 20px 10px;
   border-radius: 10px;
   border: 1px solid #666;
@@ -152,7 +153,7 @@ header {
   font-size: 1.2rem;
   color: #454545;
 }
-#options{
+#options {
   cursor: pointer;
 }
 .reservation-box button {
@@ -167,16 +168,27 @@ header {
   cursor: pointer;
   transition: 0.3s;
 }
-.reservation-box button:hover{
-  background:#fc57b7 ;
+.reservation-box button:hover {
+  background: #fc57b7;
 }
-.reservation-box button i{
+.reservation-box button i {
   margin-right: 5px;
 }
-/* برای Chrome، Safari، Edge */
-.reservation-box input[type=number]::-webkit-outer-spin-button,
-.reservation-box input[type=number]::-webkit-inner-spin-button {
+.reservation-box input[type="number"]::-webkit-outer-spin-button,
+.reservation-box input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
+}
+.text {
+  display: none;
+  color: #ff0095;
+  font-weight: 800;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
+.text i{
+  margin-left: 5px;
 }
 /*media queries*/
 @media (max-width: 1200px) {
@@ -231,10 +243,10 @@ header {
   .home span {
     font-size: 1.3125rem;
   }
-  .reservation-box{
+  .reservation-box {
     grid-template-columns: 1fr;
   }
-  .reservation-box button{
+  .reservation-box button {
     padding: 20px;
   }
 }
