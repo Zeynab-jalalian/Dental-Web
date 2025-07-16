@@ -10,6 +10,7 @@
 body {
   padding: 0.625rem;
 }
+/*header*/
 header {
   position: relative;
   width: 100%;
@@ -69,7 +70,7 @@ header {
   color: #3a3a3a;
   transition: 0.3s;
 }
-
+/*home*/
 .home {
   background: url("img/home.jpg");
   background-position: center;
@@ -121,8 +122,63 @@ header {
   font-size: 1.4375rem;
   font-weight: 600;
 }
-
-
+/*reservation*/
+.reservation {
+  width: 100%;
+  padding: 50px 9%;
+}
+.reservation h3 {
+  text-align: center;
+  color: #ff0095;
+  font-size: 1.675rem;
+  margin-bottom: 20px;
+}
+.reservation-box {
+  margin-top: 50px;
+  border: 2px solid #ff0095;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 100%;
+  padding: 5% 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.reservation-box input ,#options{
+  padding: 20px 10px;
+  border-radius: 10px;
+  border: 1px solid #666;
+  outline: none;
+  font-size: 1.2rem;
+  color: #454545;
+}
+#options{
+  cursor: pointer;
+}
+.reservation-box button {
+  background: #ff0095;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.reservation-box button:hover{
+  background:#fc57b7 ;
+}
+.reservation-box button i{
+  margin-right: 5px;
+}
+/* برای Chrome، Safari، Edge */
+.reservation-box input[type=number]::-webkit-outer-spin-button,
+.reservation-box input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/*media queries*/
 @media (max-width: 1200px) {
   .menu-toggle {
     display: flex;
@@ -177,7 +233,6 @@ header {
   }
 }
 @media (max-width: 495px) {
-
   .home h3 {
     font-size: 1.25rem;
   }
@@ -188,5 +243,8 @@ header {
     margin-bottom: 10px;
     max-width: 300px;
     font-size: 1.25rem;
+  }
+  .reservation h3 {
+    font-size: 1.5rem;
   }
 }
