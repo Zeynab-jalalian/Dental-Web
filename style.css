@@ -231,6 +231,12 @@ header {
   .home span {
     font-size: 1.3125rem;
   }
+  .reservation-box{
+    grid-template-columns: 1fr;
+  }
+  .reservation-box button{
+    padding: 20px;
+  }
 }
 @media (max-width: 495px) {
   .home h3 {
