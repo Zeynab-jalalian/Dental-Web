@@ -215,29 +215,7 @@ header {
   filter: grayscale(5);
 }
 /*services*/
-.services {
-  padding: 2%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-.services h5 {
-  color: deeppink;
-  font-size: 1.3rem;
-  padding: 5px 0;
-  font-weight: 700;
-}
-.services h1 {
-  margin: 5px 0;
-  font-size: 2rem;
-}
-.services h4{
-      font-size: 1.2rem;
-    max-width: 700px;
-    font-weight: 300;
-}
+
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
@@ -297,6 +275,18 @@ header {
     font-size: 1.2rem;
     color: #454545;
   }
+  .services h4 {
+    max-width: 300px;
+  }
+  .services h1 {
+    font-size: 1.3rem;
+  }
+  .services h5 {
+    font-size: 1rem;
+  }
+  .service-boxes {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 767px) {
@@ -337,6 +327,18 @@ header {
   .images {
     grid-template-columns: 1fr;
   }
+  .service-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+  .services h4 {
+    max-width: 500px;
+  }
+  .services h1 {
+    font-size: 1.7rem;
+  }
+  .services h5 {
+    font-size: 1.2rem;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -361,6 +363,15 @@ header {
   }
   .reservation-box button {
     padding: 20px;
+  }
+  .services h4 {
+    max-width: 400px;
+  }
+  .services h1 {
+    font-size: 1.5rem;
+  }
+  .services h5 {
+    font-size: 1.1rem;
   }
 }
 
@@ -396,5 +407,8 @@ header {
   .img3 {
     grid-column: 1 / span 3;
     grid-row: 2;
+  }
+  .service-boxes {
+    grid-template-columns: 1fr 1fr;
   }
 }
