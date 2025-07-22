@@ -431,6 +431,9 @@ header {
   .services h4 {
     max-width: 450px;
   }
+  .exp-card{
+    width: 100%;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
