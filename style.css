@@ -312,6 +312,12 @@ header {
   font-weight: 700;
   margin-bottom: 10px;
 }
+.ee {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  gap: 10px;
+}
 .e p {
   font-size: 1.2rem;
   max-width: 200px;
@@ -326,7 +332,7 @@ header {
   color: #000;
   transition: 0.2s;
 }
-.e h2 a:hover{
+.e h2 a:hover {
   color: deeppink;
 }
 /*media queries*/
@@ -422,6 +428,12 @@ header {
     padding: 0 10px 0 0;
     border-right: 2px solid deeppink;
   }
+  .e p{
+    font-size: 1rem;
+  }
+  .exp2-content h1 , .exp2-content h2{
+    font-size: 1.5rem;
+}
 }
 
 @media (max-width: 767px) {
@@ -464,6 +476,12 @@ header {
   }
   .services h4 {
     max-width: 450px;
+  }
+  .ee {
+    grid-template-columns: 1fr;
+  }
+  .e p {
+    max-width: 90%;
   }
 }
 
@@ -530,7 +548,8 @@ header {
   .service-boxes {
     grid-template-columns: repeat(2, 1fr);
   }
-  .exp {
+  .exp,
+  .exp2 {
     grid-template-columns: 1fr;
   }
 }
