@@ -375,6 +375,18 @@ header {
   .service-box .content p span {
     font-size: 1rem;
   }
+  .exp-content h1 {
+    font-size: 1.5rem;
+  }
+  .exp-content p,
+  .exp-content span {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .exp-content span {
+    padding: 0 10px 0 0;
+    border-right: 2px solid deeppink;
+  }
 }
 
 @media (max-width: 767px) {
@@ -482,5 +494,8 @@ header {
 @media (max-width: 1024px) {
   .service-boxes {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .exp {
+    grid-template-columns: 1fr;
   }
 }
