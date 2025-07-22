@@ -432,7 +432,7 @@ header {
     max-width: 450px;
   }
   .exp-card{
-    width: 100%;
+    width: 100% !important;
   }
 }
 
