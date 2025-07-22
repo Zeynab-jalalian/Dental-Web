@@ -499,4 +499,9 @@ header {
   .exp{
     grid-template-columns: 1fr;
   }
+  .exp-card{
+    width: 50%;
+    margin: 0 auto;
+  display: block;
+  }
 }
