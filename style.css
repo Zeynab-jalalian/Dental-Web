@@ -256,6 +256,44 @@ header {
   font-size: 1.1rem;
   color: #242424;
 }
+/*exp*/
+.exp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 2%;
+  margin-top: 100px;
+}
+.exp-card {
+  width: 100%;
+  border-radius: 20px;
+}
+.exp-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.exp-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: right;
+}
+.exp-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.exp-content p,
+.exp-content span {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.exp-content span {
+  padding: 0 20px 0 0;
+  border-right: 4px solid deeppink;
+}
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
