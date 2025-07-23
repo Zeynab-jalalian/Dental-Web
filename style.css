@@ -190,12 +190,12 @@ header {
   margin-left: 5px;
 }
 
-.reservation-box2{
- border: none;
- padding: 10px;
- margin-top: 20px;
+.reservation-box2 {
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
 }
-.res2-h3{
+.res2-h3 {
   font-size: 2rem !important;
 }
 /*images*/
@@ -433,6 +433,9 @@ header {
   }
   .exp-box p {
     font-size: 1rem;
+  }
+  .res2-h3 {
+    font-size: 1.7rem !important;
   }
 }
 
