@@ -332,6 +332,32 @@ header {
   text-align: justify;
   font-size: 1.2rem;
 }
+/*footer*/
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows: auto auto;       
+  gap: 20px;
+  padding: 20px;
+}
+
+footer .top-row {
+  grid-column: 1 / -1; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+footer .bottom-left,
+footer .bottom-right {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
