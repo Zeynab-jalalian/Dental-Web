@@ -581,6 +581,15 @@ footer .logo {
   .exp2-content h1 {
     font-size: 2rem;
   }
+    footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+  .top-row {
+    align-items: start !important;
+    flex-direction: column !important;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -653,14 +662,5 @@ footer .logo {
     width: 50%;
     margin: 0 auto;
     display: block;
-  }
-  footer {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-  }
-  .top-row {
-    align-items: start !important;
-    flex-direction: column !important;
   }
 }
