@@ -335,29 +335,81 @@ header {
 /*footer*/
 footer {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  grid-template-rows: auto auto;       
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
   gap: 20px;
   padding: 20px;
+  background: pink;
+  padding: 2%;
 }
 
 footer .top-row {
-  grid-column: 1 / -1; 
+  grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  background: #fff;
   padding: 16px;
   border-radius: 8px;
 }
 footer .bottom-left,
 footer .bottom-right {
-  background: #fff;
   padding: 16px;
   border-radius: 8px;
 }
-
+.clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock img {
+  margin-left: 10px;
+}
+.clock div h3 {
+  font-size: 1.5rem;
+}
+.clock div p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-top: 5px;
+  max-width: 650px;
+}
+.top-row .logo {
+  margin: auto;
+}
+.bottom-left h3,
+.bottom-right h3 {
+  font-size: 1.5rem;
+  color: deeppink;
+  margin-bottom: 10px;
+}
+.bottom-left a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.bottom-right ul {
+  list-style: none;
+}
+.bottom-right ul li {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.bottom-right ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+.bottom-right ul li i {
+  margin-left: 5px;
+}
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
