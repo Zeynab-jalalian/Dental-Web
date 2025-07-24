@@ -410,6 +410,13 @@ footer .bottom-right {
 .bottom-right ul li i {
   margin-left: 5px;
 }
+.footer {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  background: pink;
+  text-align: center;
+  padding-bottom: 20px;
+}
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
@@ -534,6 +541,10 @@ footer .bottom-right {
   .bottom-left h3,
   .bottom-right h3 {
     font-size: 1.4em;
+  }
+  .footer {
+    font-size: 0.9rem;
+    padding: 20px;
   }
 }
 
