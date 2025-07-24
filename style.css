@@ -352,20 +352,11 @@ footer .top-row {
   padding: 16px;
   border-radius: 8px;
 }
-.clock {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-}
 footer .logo{
   margin-left: 10px;
 }
 .footer h3{
   font-size: 1.3rem;
-}
-.clock-content p {
-  font-size: 1.4rem;
-  max-width: 650px;
 }
 .footer {
   padding: 10px;
@@ -404,6 +395,10 @@ footer .logo {
 }
 .bottom-right li a:hover{
   color: deeppink;
+}
+.top-row .clock .clock-content p{
+  font-size: 1.4rem;
+  max-width: 650px;
 }
 /*media queries*/
 @media (max-width: 480px) {
