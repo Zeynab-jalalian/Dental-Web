@@ -524,28 +524,28 @@ footer .bottom-right {
     font-size: 1.7rem !important;
   }
   .clock div p {
-    max-width: 450px;
-    font-size: 1.1rem;
+    max-width: 450px !important;
+    font-size: 1.1rem !important;
   }
   .bottom-left a {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
   .bottom-right ul li {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
   .bottom-right ul li a {
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
   }
   .clock div h3 {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
   }
   .bottom-left h3,
   .bottom-right h3 {
-    font-size: 1.4em;
+    font-size: 1.4rem !important;
   }
   .footer {
-    font-size: 0.9rem;
-    padding: 20px;
+    font-size: 0.9rem !important;
+    padding: 20px !important;
   }
 }
 
@@ -693,7 +693,7 @@ footer .bottom-right {
   }
     .clock div p {
     max-width: 500px;
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
   .bottom-left {
     border-right: 1px solid #eee;
@@ -701,12 +701,12 @@ footer .bottom-right {
     padding-right: 10px;
   }
   .bottom-left a {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
   .bottom-right ul li {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
   .bottom-right ul li a {
-    font-size: 1.2rem;
+    font-size: 1.2rem !important;
   }
 }
