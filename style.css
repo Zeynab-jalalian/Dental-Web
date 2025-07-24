@@ -515,6 +515,26 @@ footer .bottom-right {
   .res2-h3 {
     font-size: 1.7rem !important;
   }
+  .clock div p {
+    max-width: 450px;
+    font-size: 1.1rem;
+  }
+  .bottom-left a {
+    font-size: 1.1rem;
+  }
+  .bottom-right ul li {
+    font-size: 1.1rem;
+  }
+  .bottom-right ul li a {
+    font-size: 1.1rem;
+  }
+  .clock div h3 {
+    font-size: 1.4rem;
+  }
+  .bottom-left h3,
+  .bottom-right h3 {
+    font-size: 1.4em;
+  }
 }
 
 @media (max-width: 767px) {
@@ -569,6 +589,22 @@ footer .bottom-right {
   }
   .exp2-content h1 {
     font-size: 2rem;
+  }
+  footer {
+    grid-template-columns: 1fr;
+  }
+  .bottom-left h3,
+  .bottom-right h3 {
+    text-align: center;
+  }
+  footer .top-row {
+    flex-direction: column;
+  }
+  .clock {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: start;
   }
 }
 
@@ -629,6 +665,24 @@ footer .bottom-right {
   .img3 {
     grid-column: 1 / span 3;
     grid-row: 2;
+  }
+  .clock div p {
+    max-width: 500px;
+    font-size: 1.2rem;
+  }
+  .bottom-left {
+    border-right: 1px solid #eee;
+    border-radius: 0 !important;
+    padding-right: 10px;
+  }
+  .bottom-left a {
+    font-size: 1.2rem;
+  }
+  .bottom-right ul li {
+    font-size: 1.2rem;
+  }
+  .bottom-right ul li a {
+    font-size: 1.2rem;
   }
 }
 @media (max-width: 1024px) {
