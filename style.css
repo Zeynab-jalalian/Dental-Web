@@ -416,6 +416,7 @@ footer .bottom-right {
   background: pink;
   text-align: center;
   padding-bottom: 20px;
+  color: #333;
 }
 /*media queries*/
 @media (max-width: 480px) {
