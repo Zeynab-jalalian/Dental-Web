@@ -355,7 +355,17 @@ footer .top-row {
 .clock {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+}
+footer .logo{
+  margin-left: 10px;
+}
+.footer h3{
+  font-size: 1.3rem;
+}
+.clock-content p {
+  font-size: 1.4rem;
+  max-width: 650px;
 }
 .footer {
   padding: 10px;
@@ -364,6 +374,36 @@ footer .top-row {
   text-align: center;
   padding-bottom: 20px;
   color: #333;
+}
+footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+footer .logo {
+  margin: auto;
+}
+.bottom-left a{
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #000;
+  display: block;
+  margin: 10px auto;
+}
+.bottom-right li{
+  list-style: none;
+  margin: 15px 0;
+}
+.bottom-right li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #333;
+  transition: 0.3s;
+}
+.bottom-right li a i{
+  margin-left: 10px;
+}
+.bottom-right li a:hover{
+  color: deeppink;
 }
 /*media queries*/
 @media (max-width: 480px) {
