@@ -411,20 +411,20 @@ footer .logo {
   justify-content: center;
   align-items: center;
 }
-.Breadcrumb a{
+.Breadcrumb a {
   text-decoration: underline;
   color: #fc57b7;
   font-size: 2rem;
   transition: 0.2s;
 }
-.Breadcrumb a:hover{
+.Breadcrumb a:hover {
   color: deeppink;
 }
-.Breadcrumb i{
+.Breadcrumb i {
   margin: 0 10px;
   font-size: 1.5rem;
 }
-.Breadcrumb span{
+.Breadcrumb span {
   font-size: 2.5rem;
   color: #fff;
 }
@@ -553,6 +553,9 @@ footer .logo {
   }
   .footer h3 {
     font-size: 0.9rem;
+  }
+  .Breadcrumb a {
+    font-size: 1.8rem;
   }
 }
 
