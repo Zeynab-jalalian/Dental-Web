@@ -428,6 +428,60 @@ footer .logo {
   font-size: 2.5rem;
   color: #fff;
 }
+.servicess{
+  margin: 20px auto;
+}
+.service {
+  width: 450px;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.img-ser {
+  position: relative;
+}
+.service h3 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80%;
+  background: deeppink;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+.service img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.service div h1 {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 2rem;
+}
+.service div p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+}
+.service div a {
+  text-decoration: none;
+  color: deeppink;
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.service div a:hover{
+  color: purple;
+}
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
@@ -556,6 +610,9 @@ footer .logo {
   }
   .Breadcrumb a {
     font-size: 1.8rem;
+  }
+  .Breadcrumb span {
+    font-size: 2rem;
   }
 }
 
