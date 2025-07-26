@@ -400,6 +400,34 @@ footer .logo {
   font-size: 1.4rem;
   max-width: 650px;
 }
+/* services */
+.Breadcrumb {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Breadcrumb a{
+  text-decoration: underline;
+  color: #fc57b7;
+  font-size: 2rem;
+  transition: 0.2s;
+}
+.Breadcrumb a:hover{
+  color: deeppink;
+}
+.Breadcrumb i{
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+.Breadcrumb span{
+  font-size: 2.5rem;
+  color: #fff;
+}
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
@@ -581,7 +609,7 @@ footer .logo {
   .exp2-content h1 {
     font-size: 2rem;
   }
-    footer {
+  footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
