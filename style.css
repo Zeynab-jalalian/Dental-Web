@@ -436,9 +436,9 @@ footer .logo {
   gap: 20px;
 }
 .service {
-   display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
   height: 550px;
   width: 450px;
   border: 1px solid #eee;
@@ -454,14 +454,14 @@ footer .logo {
 }
 .img-ser {
   position: relative;
-  height: 450px; 
-  overflow: hidden; 
+  height: 450px;
+  overflow: hidden;
 }
 
 .service img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 .service h3 {
   position: absolute;
@@ -498,6 +498,7 @@ footer .logo {
 .service div a:hover {
   color: purple;
 }
+
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
