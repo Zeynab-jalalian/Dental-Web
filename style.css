@@ -760,6 +760,7 @@ footer .logo {
   .menu ul.active {
     display: flex;
     opacity: 1;
+    z-index: 1000;
   }
   .menu ul li {
     display: block;
