@@ -62,3 +62,43 @@ formBtn.addEventListener("click", (e) => {
   textInputEl.value = "";
   numberInputEl.value = "";
 });
+/* blog */
+const cards = document.querySelectorAll('.cards-container .card');
+const pages = document.querySelectorAll('.pagination span');
+
+function showPage(page) {
+ 
+  cards.forEach(card => card.style.display = 'none');
+
+  if (page === 1) {
+
+    for (let i = 0; i < 3; i++) {
+      if(cards[i]) cards[i].style.display = 'flex';
+    }
+  } else if (page === 2) {
+    
+    for (let i = 3; i < 6; i++) {
+      if(cards[i]) cards[i].style.display = 'flex';
+    }
+  } else if (page === 3) {
+
+  for (let i = 6; i < 9; i++) {
+      if(cards[i]) cards[i].style.display = 'flex';
+    }
+  }
+
+
+  pages.forEach(p => p.classList.remove('active'));
+  pages[page - 1].classList.add('active');
+}
+
+
+showPage(1);
+
+pages.forEach(p => {
+  p.addEventListener('click', () => {
+    const pageNum = parseInt(p.getAttribute('data-page'));
+    showPage(pageNum);
+  });
+});
+

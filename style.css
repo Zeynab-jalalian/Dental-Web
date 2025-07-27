@@ -445,10 +445,10 @@ footer .logo {
   padding: 10px 20px;
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  cursor:pointer;
+  cursor: pointer;
 }
-.service:hover img{
-  transform:scale(1.1);
+.service:hover img {
+  transform: scale(1.1);
 }
 .service div:last-child {
   display: flex;
@@ -466,7 +466,7 @@ footer .logo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition:0.2s ease;
+  transition: 0.2s ease;
 }
 .service h3 {
   position: absolute;
@@ -503,6 +503,103 @@ footer .logo {
 .service div a:hover {
   color: purple;
 }
+/*blog */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: ltr;
+  margin-top: 50px;
+}
+.pagination span {
+  font-size: 3rem;
+  margin: 0 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.pagination span.active{
+  background: pink;
+}
+.cards-container {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 550px;
+  width: 450px;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.card:hover img {
+  transform: scale(1.1);
+}
+.card div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.card-img {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.2s ease;
+}
+.card h3 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 80%;
+  background: deeppink;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+.card div h1 {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 2rem;
+}
+.card div p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+}
+.card div a {
+  text-decoration: none;
+  color: deeppink;
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  font-weight: 700;
+  transition: 0.2s;
+}
+.card div a:hover {
+  color: purple;
+}
+
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
