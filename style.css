@@ -445,6 +445,10 @@ footer .logo {
   padding: 10px 20px;
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  cursor:pointer;
+}
+.service:hover img{
+  transform:scale(1.1);
 }
 .service div:last-child {
   display: flex;
@@ -462,6 +466,7 @@ footer .logo {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition:0.2s ease;
 }
 .service h3 {
   position: absolute;
