@@ -522,7 +522,7 @@ footer .logo {
   align-items: center;
   cursor: pointer;
 }
-.pagination span.active{
+.pagination span.active {
   background: pink;
 }
 .cards-container {
@@ -731,6 +731,11 @@ footer .logo {
   }
   .Breadcrumb span {
     font-size: 2rem;
+  }
+  .pagination span {
+    font-size: 1.5rem;
+    width: 30px;
+    height: 30px;
   }
 }
 
