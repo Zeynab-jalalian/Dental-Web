@@ -682,6 +682,53 @@ footer .logo {
   color: #000;
   font-weight: 300;
 }
+.schedule {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.s-box div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.s-box div p {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 10px auto;
+  max-width: 300px;
+}
+.s-box div div h2 {
+  color: rgb(0, 121, 121);
+  font-weight: 900;
+}
+.count {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.count div h1 {
+  font-size: 3rem;
+}
+.count div h4 {
+  color: deeppink;
+  font-size: 1.5rem;
+}
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
