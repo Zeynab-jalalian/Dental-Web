@@ -689,9 +689,12 @@ footer .logo {
   align-items: center;
   flex-direction: column;
 }
+.schedule h1 {
+  text-align: center;
+}
 .s-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   column-gap: 50px;
   margin-top: 10px;
@@ -931,6 +934,15 @@ footer .logo {
     align-items: start !important;
     flex-direction: column !important;
   }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .container-left{
+    margin-top: 50px;
+  }
+  .container-left .container-left-contents div {
+    margin: 10px auto;
+}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
