@@ -654,6 +654,34 @@ footer .logo {
   color: #000;
   font-weight: 400;
 }
+.container-right {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+.container-right .connect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+  text-align: center;
+}
+.connect p {
+  color: deeppink;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+.connect h1 {
+  font-size: 3rem;
+}
+.connect h3 {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 300;
+}
 /*media queries*/
 @media (max-width: 480px) {
   .menu ul li a {
